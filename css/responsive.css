@@ -1,0 +1,6 @@
+/* large  */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .carousel-caption h5 br {
+    display: none !important;
+  }
+}

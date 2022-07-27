@@ -1,0 +1,37 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  color: #4a4a4a !important;
+}
+
+.nav_reg_btn {
+  border: 1px solid #289bde !important;
+  color: #289bde !important;
+}
+.nav_reg_btn:hover {
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  background-color: #289bde !important;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50, -50);
+}
+
+.slider_btn {
+  background-color: #289bde !important;
+}
+.slider_btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #289bde;
+  color: #289bde !important;
+}

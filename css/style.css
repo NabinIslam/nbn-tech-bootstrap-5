@@ -46,9 +46,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
 }
-
 
 .slider_btn {
   background-color: #289bde !important;
@@ -62,4 +60,12 @@
 .carousel-control-prev,
 .carousel-control-prev {
   z-index: 100;
+}
+
+.course_price {
+  color: #289bde;
+}
+
+.more_course_btn {
+  background-color: #289bde !important;
 }

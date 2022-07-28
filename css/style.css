@@ -92,3 +92,7 @@
   background-color: var(--theme-bg-color) !important;
   color: #4a4a4a !important;
 }
+
+.social_icon {
+  list-style: none;
+}

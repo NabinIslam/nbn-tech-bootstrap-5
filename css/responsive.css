@@ -11,4 +11,8 @@
     justify-content: center !important;
     margin-top: 20px;
   }
+
+  .company_section {
+    display: none;
+  }
 }

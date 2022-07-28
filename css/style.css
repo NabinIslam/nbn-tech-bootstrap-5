@@ -1,3 +1,8 @@
+/* custom properties */
+:root {
+  --theme-color: #289bde;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -19,13 +24,13 @@
 }
 
 .nav_reg_btn {
-  border: 1px solid #289bde !important;
-  color: #289bde !important;
+  border: 1px solid var(--theme-color) !important;
+  color: var(--theme-color) !important;
 }
 .nav_reg_btn:hover {
   border: 1px solid #fff !important;
   color: #fff !important;
-  background-color: #289bde !important;
+  background-color: var(--theme-color) !important;
 }
 
 .carousel {
@@ -49,12 +54,12 @@
 }
 
 .slider_btn {
-  background-color: #289bde !important;
+  background-color: var(--theme-color) !important;
 }
 .slider_btn:hover {
   background-color: #fff !important;
-  border: 1px solid #289bde;
-  color: #289bde !important;
+  border: 1px solid var(--theme-color);
+  color: var(--theme-color) !important;
 }
 
 .carousel-control-prev,
@@ -63,9 +68,21 @@
 }
 
 .course_price {
-  color: #289bde;
+  color: var(--theme-color);
 }
 
 .more_course_btn {
-  background-color: #289bde !important;
+  background-color: var(--theme-color) !important;
+}
+
+.explore_card_row {
+  background-color: #f4fafd;
+}
+
+.join_row {
+  background-color: var(--theme-color);
+}
+
+.reg_now_btn {
+  color: var(--theme-color) !important;
 }

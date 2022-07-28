@@ -1,9 +1,13 @@
 /* large  */
-/* @media only screen and (min-width: 769px) and (max-width: 992px) {
-  .carousel-caption h5 br {
-    display: none !important;
+@media only screen and (max-width: 992px) {
+  .carousel-caption p {
+    display: none;
   }
-} */
+  
+  .company_section {
+    display: none;
+  }
+}
 
 /* small  */
 @media only screen and (max-width: 768px) {
@@ -12,7 +16,7 @@
     margin-top: 20px;
   }
 
-  .company_section {
-    display: none;
+  #slider_title {
+    font-size: 20px !important;
   }
 }

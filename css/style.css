@@ -1,13 +1,15 @@
 /* custom properties */
 :root {
-  --theme-color: #289bde;
-  --theme-bg-color: #f4fafd;
+  --theme-primary-color: #289bde;
+  --theme-secondary-color: #f4fafd;
 }
 
+/* global css */
 * {
   font-family: "Poppins", sans-serif;
 }
 
+/* overlay */
 #overlay {
   position: absolute;
   width: 100%;
@@ -20,20 +22,22 @@
   z-index: 1;
 }
 
+/* navbar css */
 .navbar-brand {
   color: #4a4a4a !important;
 }
 
 .nav_reg_btn {
-  border: 1px solid var(--theme-color) !important;
-  color: var(--theme-color) !important;
+  border: 1px solid var(--theme-primary-color) !important;
+  color: var(--theme-primary-color) !important;
 }
 .nav_reg_btn:hover {
   border: 1px solid #fff !important;
   color: #fff !important;
-  background-color: var(--theme-color) !important;
+  background-color: var(--theme-primary-color) !important;
 }
 
+/* slider css */
 .carousel {
   z-index: 10000 !important;
 }
@@ -55,12 +59,12 @@
 }
 
 .slider_btn {
-  background-color: var(--theme-color) !important;
+  background-color: var(--theme-primary-color) !important;
 }
 .slider_btn:hover {
   background-color: #fff !important;
-  border: 1px solid var(--theme-color);
-  color: var(--theme-color) !important;
+  border: 1px solid var(--theme-primary-color);
+  color: var(--theme-primary-color) !important;
 }
 
 .carousel-control-prev,
@@ -68,31 +72,36 @@
   z-index: 100;
 }
 
+/* course section css */
 .course_price {
-  color: var(--theme-color);
+  color: var(--theme-primary-color);
 }
 
 .more_course_btn {
-  background-color: var(--theme-color) !important;
+  background-color: var(--theme-primary-color) !important;
 }
 
+/* explore section css */
 .explore_card_row {
-  background-color: var(--theme-bg-color);
+  background-color: var(--theme-secondary-color);
 }
 
+/* join section css */
 .join_row {
-  background-color: var(--theme-color);
+  background-color: var(--theme-primary-color);
 }
 
 .reg_now_btn {
-  color: var(--theme-color) !important;
+  color: var(--theme-primary-color) !important;
 }
 
+/* faq section css */
 .accordion-button:not(.collapsed) {
-  background-color: var(--theme-bg-color) !important;
+  background-color: var(--theme-secondary-color) !important;
   color: #4a4a4a !important;
 }
 
+/* footer css */
 .social_icon {
   list-style: none;
 }

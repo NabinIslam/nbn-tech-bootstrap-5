@@ -1,6 +1,7 @@
 /* custom properties */
 :root {
   --theme-color: #289bde;
+  --theme-bg-color: #f4fafd;
 }
 
 * {
@@ -76,7 +77,7 @@
 }
 
 .explore_card_row {
-  background-color: #f4fafd;
+  background-color: var(--theme-bg-color);
 }
 
 .join_row {
@@ -85,4 +86,9 @@
 
 .reg_now_btn {
   color: var(--theme-color) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--theme-bg-color) !important;
+  color: #4a4a4a !important;
 }

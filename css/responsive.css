@@ -6,8 +6,9 @@
 } */
 
 /* small  */
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #reg_btn_col {
-    justify-content: flex-start !important;
+    justify-content: center !important;
+    margin-top: 20px;
   }
 }
